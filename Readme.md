@@ -1,4 +1,4 @@
-# Git Course (Udemy)
+# Git Course
 Este é um repositorio teste para aprender a usar o Git e Github.
 
 ### Status dos Arquivos
@@ -85,7 +85,7 @@ Exemplo de codigo:
 git show f0557a86824147186c0b40f6938313341136be46
 ```
 
-* Mostrar a modificação antes do commit  
+* Mostrar a modificação antes de adicionar  
 ```
 git diff
 ```
@@ -209,4 +209,39 @@ git checkout master
 * Apagando o branch
 ```
 git branch -D 'Nome do branch'
+
+Exemplo de codigo:
+git branch -D testing
+```
+* Unindo Branches
+
+    * Merge
+    ```
+    git merge 'Nome do branch'
+
+    Exemplo de codigo:
+    git merge branch-merge
+    ```
+
+    * Rebase
+    ```
+    git rebase 'Nome do branch'
+
+    Exemplo de codigo:
+    git rebase branch-rebase
+    ```
+
+### .gitignore
+
+Um arquivo gitignore especifica arquivos não rastreados intencionalmente que o Git deve ignorar
+
+[Link da Documentação](https://git-scm.com/docs/gitignore)  
+[Link dos Templates](https://github.com/github/gitignore)
+
+### Stash
+```
+git stash
+git stash apply
+git stash list
+git stash clear
 ```
