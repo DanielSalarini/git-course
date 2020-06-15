@@ -43,8 +43,6 @@ git status
 * Arquivo adicionado para o commit  
 ```
 git add 'Nome do Arquivo'
-
-Exemplo de codigo:
 git add file.html
 ```
 
