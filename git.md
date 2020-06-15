@@ -43,14 +43,14 @@ git status
 * Arquivo adicionado para o commit  
 ```
 git add 'Nome do Arquivo'
+
+Exemplo de codigo:
 git add file.html
 ```
 
 * Criar um commit ou Snapshot
 ```  
 git commit -m "Mensagem"
-
-// Enviar direto sem usar git add
 git commit -am "Mensagem"
 ```
 
