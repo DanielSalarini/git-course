@@ -46,6 +46,9 @@ git add 'Nome do Arquivo'
 
 Exemplo de codigo:
 git add file.html
+
+// Adicionar todos os arquivos
+git add .
 ```
 
 * Criar um commit ou Snapshot
@@ -237,6 +240,8 @@ Um arquivo gitignore especifica arquivos não rastreados intencionalmente que o 
 [Link dos Templates](https://github.com/github/gitignore)
 
 ### Stash
+
+Para alternar entre um branch e outro é necessário fazer o commit das alterações atuais para depois trocar para um outro branch. Se existir a necessidade de realizar a troca sem fazer o commit é possível criar um stash. O Stash como se fosse um branch temporário que contem apenas as alterações ainda não commitadas.
 ```
 git stash
 git stash apply
